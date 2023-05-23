@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Parts E-Shop - Cart</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom styles */
+    body {
+      padding-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Cart Page -->
+<div class="container mt-4">
+    <h2>Cart</h2>
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Auto Part 1</td>
+            <td>1</td>
+            <td>$99.99</td>
+            <td>$99.99</td>
+            <td>
+                <button class="btn btn-sm btn-danger">Remove</button>
+            </td>
+        </tr>
+        <!-- Add more rows for other products in the cart -->
+        </tbody>
+    </table>
+    <div class="text-right">
+        <p>Total: $99.99</p>
+        <a href="#" class="btn btn-success">Checkout</a>
+    </div>
+</div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
